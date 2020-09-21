@@ -1,0 +1,67 @@
+# This is the main configuration file for Mohist.
+#
+# Home: https://www.mohist.red/
+#
+
+entity-tick-limit: 300
+hidejoinmodslist: false
+forge:
+  modswhitelist:
+    kickmessage: Use of unauthorized mods
+    list: aaaa@version,bbbb@version
+  enable_mods_whitelist: false
+  whitelist_mods_number: 0
+  disablechunkforcesystem: false
+  autounloadWorld_whitelist:
+    - 0
+    - 1
+    - -1
+  modsblacklist:
+    list: []
+    kickmessage: Use of unauthorized mods
+  version:
+    major: 14
+    minor: 23
+    revision: 5
+    build: 2854
+mohist:
+  use_custom_java8: false
+  check_update: true
+  server-type: FML
+  lang: xx_XX
+  console_name: Server
+  CloseChatInConsole: false
+  check_libraries: true
+  support_nocmd: false
+  disable_mods_blacklist: false
+  disable_plugins_blacklist: false
+  check_update_auto_download: false
+  realtimeticking: false
+  watchdog_mohist: false
+  watchdog_spigot: true
+eventCanceled:
+  explosion: false
+consolecolor:
+  info-time: b
+  trace-level: c
+  fatal-time: b
+  info-msg: r
+  error-level: c
+  error-msg: c
+  info-level: 2
+  warn-time: b
+  fatal-msg: c
+  error-time: b
+  trace-time: b
+  fatal-level: c
+  warn-msg: 3
+  warn-level: 2
+  trace-msg: c
+libraries_black_list: aaaaa;bbbbbb
+world:
+  stopserversaveworlds: false
+  dimensionsNotLoaded: []
+disable-announce-Advancements: false
+CloseChatInConsole: false
+settings:
+  min-chunk-load-threads: 2
