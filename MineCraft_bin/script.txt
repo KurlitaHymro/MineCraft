@@ -1,0 +1,10 @@
+screen -S mc
+java -jar mohist.jar
+java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
+
+//退出screen的会话
+ctrl+A和D
+//恢复mc会话
+screen -r mc
+//停止游戏服务器
+stop
