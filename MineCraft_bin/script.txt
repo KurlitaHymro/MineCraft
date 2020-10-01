@@ -1,5 +1,8 @@
+//切换JAVA版本为JAVA8
+update-alternatives --config java
+
 screen -S mc
-java -jar mohist.jar
+java -jar bin.jar
 java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
 
 //退出screen的会话
